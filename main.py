@@ -2,13 +2,13 @@
 
 # Created by: Daniel Pawelko
 # Created on: Dec 2021
-# For Loops
+# Better Guessing Game
 
 from random import randint
 
 
 def main():
-    # main function for creating for loop program
+    # main function for creating guessing game
 
     # creating random number
     random_num = randint(0, 9)
