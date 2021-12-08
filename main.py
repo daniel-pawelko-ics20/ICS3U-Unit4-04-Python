@@ -13,7 +13,7 @@ def main():
     # creating random number
     random_num = randint(0, 9)
 
-    # process/output
+    # process/output/input
     while True:
         guess = input("What is your guess: ")
         guess = int(guess)
