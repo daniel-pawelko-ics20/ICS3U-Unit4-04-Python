@@ -11,14 +11,14 @@ def main():
     # main function for creating guessing game
 
     # creating random number
-    random_num = randint(0, 9)
+    RANDOM_NUM = randint(0, 9)
 
     # process/output/input
     while True:
         guess = input("What is your guess: ")
         guess = int(guess)
-        if guess == random_num:
-            print(f"You guessed CORRECT, the number is {random_num}")
+        if guess == RANDOM_NUM:
+            print(f"You guessed CORRECT, the number is {RANDOM_NUM}")
             break
         print("Incorrect :(")
 
